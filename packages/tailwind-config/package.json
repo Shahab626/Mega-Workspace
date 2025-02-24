@@ -1,14 +1,18 @@
 {
   "name": "@repo/tailwind-config",
-  "version": "0.0.0",
-  "private": true,
-  "license": "MIT",
-  "publishConfig": {
-    "access": "public"
+  "version": "1.0.0",
+  "main": "postcss.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.5.3",
-    "tailwindcss": "^4.0.8"
-  }
+  "exports": {
+    "./tailwindConfig": "./tailwind.config.cjs",
+    "./postcssConfig": "./postcss.config.cjs",
+    "./globalcss": "./styles.tsx"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {}
 }
