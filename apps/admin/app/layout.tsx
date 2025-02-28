@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-// import "@repo/tailwind-config/globalcss";
 import "./globals.css";
 import "@repo/ui/styles.css";
 
