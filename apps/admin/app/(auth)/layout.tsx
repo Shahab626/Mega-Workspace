@@ -9,8 +9,8 @@ const Layout: FC<PropsWithChildren> = ({ children }) => {
           src="/images/login.jpg"
           className="rounded-3 h-auto"
           alt="login"
-          width={646}
-          height={756}
+          width={600}
+          height={600}
         />
       </div>
 

@@ -29,7 +29,7 @@ const LoginPage = () => {
   });
 
   return (
-    <div className="max-w-lg">
+    <div className="max-w-lg w-full m-auto md:m-0">
       <h2 className="text-2xl">Login!</h2>
       <form
         onSubmit={handleSubmit((formData) => {
